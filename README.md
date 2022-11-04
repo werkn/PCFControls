@@ -36,7 +36,7 @@ This repository aims to be a collection point of components that I've built to e
 
 ## Component List
 
- - [QR Code Generator](./components/QRCodeGenerator/README.md)
+ - [QR Code Generator](./QRCodeGenerator/)
 
 ## Helpful PCF and Power Apps Links
 
