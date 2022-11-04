@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="werkn.io" constructor="QRCodeGenerator" version="0.0.1" display-name-key="QRCodeGenerator" description-key="QRCodeGenerator description" control-type="standard" >
+    <external-service-usage enabled="false">
+      <!--UNCOMMENT TO ADD EXTERNAL DOMAINS
+      <domain></domain>
+      <domain></domain>
+      -->
+    </external-service-usage>
+
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="userGuid" display-name-key="User GUID" description-key="The user's unique ID to be encoded into QR code" of-type="Multiple" usage="bound" required="true" />
+    
+    <resources>
+      <code path="index.ts" order="1"/>
+      <!-- UNCOMMENT TO ADD MORE RESOURCES
+      <css path="css/QRCodeGenerator.css" order="1" />
+      <resx path="strings/QRCodeGenerator.1033.resx" version="1.0.0" />
+      -->
+    </resources>
+  </control>
+</manifest>
