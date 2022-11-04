@@ -1,2 +1,4 @@
-# PCFControls
-Reusable PowerApps Control Framework (PCF) controls.
+# Description
+Reusable PowerApps Component Framework (PCF) components.
+
+# Components
